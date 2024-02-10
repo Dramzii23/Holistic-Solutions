@@ -216,11 +216,13 @@ iframe {
   /* right: 0; */
   }
   #bgVideo {
-    position: relative;
+    position: absolute;
     z-index: -999;
     width: 1920px;
     height: 1080px;
     margin: 0 auto;
+    right:0;
+    left:0;
   }
   
   #bgVideo .iframe {
