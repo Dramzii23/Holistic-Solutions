@@ -176,8 +176,8 @@ body {
 
 /* Edited */
 .container.bg-dark {
-  margin-top: 1em;
-  background-color: transparent !important;
+  /* margin-top: 1em; */
+  /* background-color: transparent !important; */
 }
 nav.navbar.navbar-expand-lg.bg-body-tertiary.rounded {
   border: 1px solid hsl(0deg 0% 50% / 50%);
