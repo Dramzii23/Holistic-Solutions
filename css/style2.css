@@ -269,3 +269,6 @@ iframe {
     background: linear-gradient(to top, #212529, transparent);
   }
   /* END BACKGROUND VIDEO */
+
+  /* CARROUSEL CSS */
+  div#carouselExampleCaptions {background: linear-gradient(180deg,#252525, transparent);/* background-position-y: -9em; */}
