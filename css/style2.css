@@ -262,7 +262,7 @@ iframe {
   @media (max-width: 576px) {
     body {
       /* width: 100%; */
-      display: grid;
+      /* display: grid; */
       /* justify-content: space-between;
       justify-content: normal;
       position: absolute;
