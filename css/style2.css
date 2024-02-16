@@ -12,6 +12,19 @@
   --hover-primary: #ff7e5f;
   --border-color: #e9e9e9;
 }
+:root {
+  --primary-color: #E91E63;
+  --secondary-color: #66b6c4;
+  --gradient-start: #4b3c42;
+  --gradient-stop: #1a202c;
+  --gradient-end: rgb(33,31,31) --text-dark: #333333;
+  --text-white: #ffffff;
+  --text-medium: #a0a0a0;
+  --background-light: #f3f9fb;
+  --link-color: #000000;
+  --hover-primary: #ff7e5f;
+  --border-color: #e9e9e9;
+}
 
 body {
   /* font-family: 'Poppins', sans-serif;
@@ -416,3 +429,97 @@ to {
 .st13{opacity:0.2;}
 .st14{clip-path:url(#SVGID_16_);}
 .st15{opacity:0.3;fill:#FFFFFF;enable-background:new    ;}
+
+.btn-primary {
+  --bs-btn-color: #fff;
+  --bs-btn-bg: #E91E63;
+  --bs-btn-border-color: #F48FB1;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #D81B60;
+  --bs-btn-hover-border-color: #F8BBD0;
+  --bs-btn-focus-shadow-rgb: 49,132,253;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #AD1457;
+  --bs-btn-active-border-color: #880E4F;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #fff;
+  --bs-btn-disabled-bg: #F06292;
+  --bs-btn-disabled-border-color: #F48FB1;
+}
+.service-icon {.btn-primary {
+  --bs-btn-color: #fff;
+  --bs-btn-bg: #E91E63;
+  --bs-btn-border-color: #F48FB1;
+  --bs-btn-hover-color: #fff;
+  --bs-btn-hover-bg: #D81B60;
+  --bs-btn-hover-border-color: #F8BBD0;
+  --bs-btn-focus-shadow-rgb: 49,132,253;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #AD1457;
+  --bs-btn-active-border-color: #880E4F;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #fff;
+  --bs-btn-disabled-bg: #F06292;
+  --bs-btn-disabled-border-color: #F48FB1;
+};
+
+  background-color: #E91E63;
+}
+
+.subtitle-style {
+    color: #EC407A;
+}
+
+.full-width-seciton {
+    margin: 0 -100%;
+    width: 300%;
+}
+
+h1.title-style.mb-5.mt-3, h2, h1 {
+    color: hsl(190 100% 60% / 1);
+}
+
+.p-style {
+    color: hsl(187 40% 80% / 1);
+}
+.full-width-seciton .p-style {
+  color: hsl(187 40% 30% / 1);
+}
+
+.text-dark {
+  color: hsl(190 100% 90% / 1) !important;
+}
+
+svg.bi.bi-check2 {
+  fill: #E91E63;
+}
+
+.mycard {
+  background: #ffffff;
+  border-radius: 2em;
+  color: #00BCD4;
+  /* filter: saturate(0); */
+}
+
+.mycard, .mycard h1, .mycard p {
+  color: hsl(0deg 0% 29.53%) !important;
+  /* filter: saturate(0); */
+}
+
+.mycard img {
+  /* filter: invert(1); */
+  /* filter: hue-rotate(372deg) saturate(0.7); */
+  /* filter: saturate(0.5); */
+  display: none;
+}
+svg.bi.bi-lightbulb  {}
+
+.feature-icon {
+    background-color: #E91E63;
+}
+
+i.fa-solid.fa-angles-up {}
+
+.totop {
+    background-color: #E91E63;
+}
