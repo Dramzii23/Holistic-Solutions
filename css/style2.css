@@ -523,3 +523,20 @@ i.fa-solid.fa-angles-up {}
 .totop {
     background-color: #E91E63;
 }
+
+i.fab.fa-whatsapp {
+  font-size: 4em !important;
+  margin-top: -20px;
+  color: #8BC34A;
+}
+
+#logo-svg {
+  margin: 0.7em 1em;
+}
+
+.container.bg-dark.position-absolute.position-absolute.z-3.start-0.end-0.pt-3 {padding-right: 0;padding-left: 0;}
+
+.link-style {
+  color: #F48FB1;
+  font-weight: 100;
+}
