@@ -540,3 +540,22 @@ i.fab.fa-whatsapp {
   color: #F48FB1;
   font-weight: 100;
 }
+
+img.aboutus-img.wow.slideInLeft {
+  background-color: hsl(0 0% 99% / 1);
+  padding: 4em 0.2em 2em 20em;
+  margin: 0 0 0 -38em;
+}
+body {
+  overflow-x: hidden;
+}
+
+img.aboutus-img.wow.slideInLeft {
+  background-color: #E91E63;
+  padding: 1em 1em 1em 52em;
+  margin: 0 0 0 -61em;
+  border-radius: 2em;
+  box-shadow: 1px 10px 20px 0px hsl(204deg 50% 5% / 60%);
+  --bs-gradient: aliceblue;
+  background: linear-gradient(to right, #E91E63, #00BCD4);
+}
